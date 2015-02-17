@@ -1,0 +1,7 @@
+.logout_message {
+	text-align: center;
+}
+
+#session_return:hover {
+	color: orange;
+}

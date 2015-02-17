@@ -1,0 +1,8 @@
+#who_list li, #what_list li, #when_list li, #where_list li, #why_list li, #how_list li {
+	color: white;
+	font-family: 'Coming Soon', cursive;
+}
+
+#who:hover, #what:hover, #when:hover, #where:hover, #why:hover, #how:hover {
+	cursor: pointer;
+}

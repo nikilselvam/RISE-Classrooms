@@ -7,9 +7,9 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
 	});
@@ -20,9 +20,9 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
 	});
@@ -33,9 +33,9 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
 	});
@@ -46,9 +46,9 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
 	});
@@ -59,9 +59,9 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
 	});
@@ -72,10 +72,20 @@ $(document).ready(function(){
 		var height = $(this).height();
 
 		if (height === 50) {
-			$(this).css("height", 100);
+			$(this).css("height", 300);
 		}
-		else if (height === 100) {
+		else if (height === 300) {
 			$(this).css("height", 50);
 		}
+	});
+
+	$("#show_all").click(function(){
+		$("#who_list li, #what_list li, #when_list li, #where_list li, #why_list li, #how_list li").show();
+		$(".keyword_container").css("height", 300);
+	});
+
+	$("#hide_all").click(function(){
+		$("#who_list li, #what_list li, #when_list li, #where_list li, #why_list li, #how_list li").hide();
+		$(".keyword_container").css("height", 50);
 	});
 });

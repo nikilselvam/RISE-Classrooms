@@ -93,3 +93,18 @@ a {
 	float: right;
 	margin-right: 3%;
 }
+
+td {
+	color: white;
+	font-family: 'Coming Soon', cursive;
+	text-align: center;
+	border: 1px solid white;
+}
+
+table {
+	margin: 0 auto;
+}
+
+tbody tr {
+	cursor: pointer;
+}
